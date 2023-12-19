@@ -1,0 +1,15 @@
+.loginh2{
+    margin-bottom: 50px;
+}
+
+.forgot-password-button {
+    color: #007bff; // Set the color to your preferred style
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: #0056b3; // Set the hover color
+    }
+  }
+  
