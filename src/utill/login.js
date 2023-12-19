@@ -1,7 +1,7 @@
 import React from 'react';
-import { Button, Container, Form } from 'react-bootstrap';
-import { useNavigate } from 'react-router-dom';
-import  PasswordRecovery from './PasswordRecovery';
+import { Button, Container, Form} from 'react-bootstrap';
+import { useNavigate,Link } from 'react-router-dom';
+// import  PasswordRecovery from './PasswordRecovery';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -29,9 +29,9 @@ const Login = () => {
         <Button variant="primary" type="button" onClick={handleLogin}>
           로그인
         </Button>
-        <Button variant="link" onClick={PasswordRecovery} className="forgot-password-button">
+        <Link to="/passwordRecovery" className="forgot-password-link">
           비밀번호 찾기
-        </Button>
+        </Link>
       </Form>
     </Container>
   )
