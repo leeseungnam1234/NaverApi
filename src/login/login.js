@@ -30,7 +30,9 @@ const Login = () => {
           로그인
         </Button>
         <Link to="/passwordRecovery" className="forgot-password-link">
-          비밀번호 찾기
+          <Button variant="primary" type="button">
+            비밀번호 찾기
+          </Button>
         </Link>
       </Form>
     </Container>

@@ -19,6 +19,7 @@ const PasswordRecovery = () => {
         setMessage('귀하의 이메일로 비밀번호 복구 지침이 전송되었습니다.');
         setError('');
         } catch (err) {
+            
         // 오류 처리, 오류 메시지 표시 등
         setMessage('');
         setError('Error: 비밀번호 복구를 처리할 수 없습니다.');
